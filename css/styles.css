@@ -354,21 +354,23 @@ line-height: 21px;
 	max-width: 100%;
 }
 .overlay {
-    padding: 40px 32px 64px 32px;
-    background-color: #3f51b5;
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-letter-spacing: 0.32px;
-    font-family: sans-serif;
+    background-color: var(--web-color);
+    color: var(--cloud-color);
     position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateX(-100%);
+  transform: translateY(100%);
   transition: transform 250ms ease-in-out;
 }
 .app-line:hover .overlay{
     transform: translateY(0);
+}
+.overlay-text{
+    font-size: 16px;
+    line-height: 24px;
+letter-spacing: 0.32px;
+font-family: sans-serif;
+padding: 40px 32px 164px 32px;
 }
