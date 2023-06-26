@@ -243,6 +243,7 @@ padding-top: 120px;
     background-color: var(--h1-color);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-member{
     padding: 32px 16px;
@@ -253,6 +254,10 @@ padding-top: 120px;
 }
 .paragraph-name{
     text-align: center;
+}
+.section-five{
+    padding: 120px 0;
+    background-color: var(--h1-color);
 }
 .footer{
     background-color: #2E2F42;
@@ -335,6 +340,9 @@ line-height: 21px;
 }
 .app-line{
     width: calc((100% - 48px) / 3);
+    position: relative;
+    overflow: hidden;
+ 
 }
 .applications{
     padding: 32px 16px;
@@ -344,4 +352,23 @@ line-height: 21px;
 .apps{
     display: block;
 	max-width: 100%;
+}
+.overlay {
+    padding: 40px 32px 64px 32px;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+letter-spacing: 0.32px;
+    font-family: sans-serif;
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 250ms ease-in-out;
+}
+.app-line:hover .overlay{
+    transform: translateY(0);
 }
