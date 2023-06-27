@@ -209,12 +209,12 @@ margin-left: auto;
 .section-one{
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/img-name.jpeg), url(/images/office.jpg);
-padding: 188px 0; 
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 max-width: 1440px;
 margin: auto;
+padding: 188px 0;
 }
 
 .section-two{
@@ -284,13 +284,14 @@ padding-top: 120px;
     .clients-item{
     list-style-type: none;
     margin: 0 auto;
+    width: calc((100% - 120px) / 6);
+    width: 168;
+        height: 88;
     }
     .clients-link{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168;
-    height: 88;
     fill: var(--ligt-slate);
     padding: 16px 32px;
     
