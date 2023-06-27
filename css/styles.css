@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6, p, ul{
 .nav-menu{
     display: flex; 
     align-items: center;
-    position: relative;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -78,6 +77,8 @@ margin-right: 76px;
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    position: relative;
+    color: var(--pressed-state);
 }
 .ul-one a{
     color: var(--head-color);
