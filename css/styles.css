@@ -10,6 +10,7 @@
 --accent: #E7E9FC;
 --text: #434455;
 --ligt-slate: #8E8F99;
+--geen-success: #31D0AA;
 }
 /*NORMALIZATOR*/
 *, 
@@ -410,6 +411,9 @@ fill: var(--cloud-color);
             align-items: center;
             justify-content: center;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sm-footer-item:hover, .sm-footer-item:active{
+    background-color: #31D0AA;
 }
 .text-footer{
     color: var(--cloud-color);
