@@ -313,7 +313,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .sm-icon{
     fill: var(--cloud-color);
 }
-.sm-link:hover, .sm-link:active{
+.sm-link:hover, .sm-link:focus{
     background-color: var(--pressed-state);
 }
 
