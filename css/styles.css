@@ -26,6 +26,9 @@ h1, h2, h3, h4, h5, h6, p, ul{
 /*HEADER*/ 
 .top-header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-div{
     display: flex;
@@ -38,6 +41,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 .nav-menu{
     display: flex; 
     align-items: center;
+    position: relative;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -203,9 +207,16 @@ margin-left: auto;
     background-color: var(--pressed-state);
 }
 .section-one{
-background-color: var(--background-dark);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/img-name.jpeg), url(/images/office.jpg);
 padding: 188px 0; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+max-width: 1440px;
+margin: auto;
 }
+
 .section-two{
 background-color: var(--h1-color);
 padding: 120px 0;
