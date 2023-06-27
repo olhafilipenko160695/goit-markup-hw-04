@@ -9,6 +9,7 @@
 --h1-color:  #FFFFFF;
 --accent: #E7E9FC;
 --text: #434455;
+--ligt-slate: #8E8F99;
 }
 /*NORMALIZATOR*/
 *, 
@@ -255,10 +256,44 @@ padding-top: 120px;
 .paragraph-name{
     text-align: center;
 }
+/*Social media in team*/
+
+
+/* Clients block (five)*/ 
 .section-five{
     padding: 120px 0;
     background-color: var(--h1-color);
 }
+.clients-list{
+    display: flex;
+    
+    gap: 24px;
+    margin-top: 72px;
+    }
+    .clients-item{
+    list-style-type: none;
+    margin: 0 auto;
+    }
+    .clients-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168;
+    height: 88;
+    fill: var(--ligt-slate);
+    padding: 16px 32px;
+    
+    border: 1px solid var(--ligt-slate);
+    border-radius: 4px;
+    }
+    .clients-link:hover{
+    border-color: var(--web-color);
+    }
+    .clients-link:hover .clients-icon{
+        fill: var(--web-color);
+    }
+    
+
 .footer{
     background-color: #2E2F42;
     text-align: left;
@@ -375,3 +410,4 @@ letter-spacing: 0.32px;
 font-family: sans-serif;
 padding: 40px 32px 164px 32px;
 }
+
