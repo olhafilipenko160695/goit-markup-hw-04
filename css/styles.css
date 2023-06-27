@@ -62,6 +62,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
+position: relative;
+color: var(--pressed-state);
 }
 .studio-text{
     color: var(--background-dark);
@@ -80,10 +82,7 @@ margin-right: 76px;
     position: relative;
     color: var(--pressed-state);
 }
-.ul-one > li{
-    position: relative;
-    color: var(--pressed-state);
-}
+
 .ul-one a{
     color: var(--head-color);
     font-family: 'Roboto';
