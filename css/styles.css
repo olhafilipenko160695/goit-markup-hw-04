@@ -375,10 +375,10 @@ width: calc((100% - 120px) / 6);
 .clients-link:hover{
 border-color: var(--pressed-state);
 }
- .clients-icon:hover{
+.clients-icon:hover{
         fill: var(--pressed-state);
     }
-.clients-link:focus{
+.clients-icon:focus{
 fill: var(--pressed-state);
           }
 .clients-icon{
