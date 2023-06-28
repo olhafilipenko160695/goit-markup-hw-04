@@ -329,6 +329,7 @@ height: 40px;
 }
 .sm-icon{
     fill: var(--cloud-color);
+    fill: currentColor;
 }
 .sm-link:focus{
     background-color: var(--pressed-state);
