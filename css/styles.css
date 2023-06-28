@@ -99,6 +99,18 @@ margin-right: 76px;
     text-decoration: none;
     letter-spacing: 0.02em;
 }
+
+.link-portfolio:before,
+.link-portfolio:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100px;
+        height: 2px;
+        background-color: red;
+}
+
 .ul-address{
     display: flex;
     gap: 40px;
@@ -318,10 +330,13 @@ height: 40px;
 .sm-icon{
     fill: var(--cloud-color);
 }
-.sm-link:hover, .sm-link:focus{
+.sm-link:focus{
     background-color: var(--pressed-state);
 }
+.sm-link:hover{
+background-color: var(--pressed-state);
 
+}
 /* Clients block (five)*/ 
 
 .section-five{
