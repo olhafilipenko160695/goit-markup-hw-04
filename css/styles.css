@@ -329,7 +329,7 @@ height: 40px;
 }
 .sm-icon{
     fill: var(--cloud-color);
-    fill: currentColor;
+    
 }
 .sm-link:focus{
     background-color: var(--pressed-state);
@@ -380,7 +380,9 @@ border-color: var(--web-color);
     .clients-link:focus .clients-icon {
               fill: var(--web-color);
           }
-
+.clients-icon{
+    fill: currentColor;
+}
 
           /* FOOTER */
 
