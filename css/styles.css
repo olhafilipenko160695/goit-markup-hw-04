@@ -352,7 +352,7 @@ background-color: var(--pressed-state);
     }
 .clients-item{
     list-style-type: none;
-width: calc((100% - 120px) / 6);
+    width: calc((100% - 120px) / 6);
     height: 88px;
     }
 .clients-link{
@@ -371,9 +371,11 @@ width: calc((100% - 120px) / 6);
     height: 100%;
     }
 .clients-link:focus{
+    color: var(--pressed-state);
     border-color: var(--pressed-state);
     }
 .clients-link:hover{
+    color: var(--pressed-state);
 border-color: var(--pressed-state);
 }
 .clients-icon:hover{
