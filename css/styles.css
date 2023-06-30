@@ -368,10 +368,10 @@ background-color: var(--pressed-state);
     }
 .clients-item{
     list-style-type: none;
-    width: calc((100%-120px)/6);
     height: 88px;
     }
 .clients-link{
+    width: calc((100%-120px)/6);
     display: flex;
     justify-content: center;
     align-items: center;
