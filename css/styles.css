@@ -613,16 +613,12 @@ padding: 40px 32px 164px 32px;
 }
 
 .modal-btn:hover{
+    fill: var(--h1-color);
     background-color: var(--pressed-state);
     border: none;
 }
 .modal-btn:focus {
+    fill: var(--h1-color);
     background-color: var(--pressed-state);
     border: none;
-}
-.modal-icon:hover{
-    fill: var(--h1-color);
-}
-.modal-icon:focus{
-    fill: var(--h1-color);
 }
