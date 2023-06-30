@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
     align-items: center;
 }
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: var(--text);
@@ -118,7 +119,6 @@ display: block;
 
 width: 100%;
 height: 4px;
-color: var(--pressed-state);
 border-radius: 2px;
 background-color: var(--pressed-state);
 
