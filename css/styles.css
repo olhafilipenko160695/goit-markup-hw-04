@@ -369,9 +369,9 @@ background-color: var(--pressed-state);
 .clients-item{
     list-style-type: none;
     height: 88px;
+    width: calc((100%-120px)/6);
     }
 .clients-link{
-    width: calc((100%-120px)/6);
     display: flex;
     justify-content: center;
     align-items: center;
