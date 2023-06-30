@@ -65,6 +65,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
 }
+
 .studio-text{
     color: var(--background-dark);
 }
@@ -100,17 +101,26 @@ margin-right: 76px;
     text-decoration: none;
     letter-spacing: 0.02em;
 }
-
-.link-portfolio:before,
-.link-portfolio:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100px;
-        height: 2px;
-        background-color: red;
+.header-link{
+    position: relative;
 }
+.header-link.active::after{
+content: "";
+position: absolute;
+bottom: -1px;
+left: 0;
+
+display: block;
+
+width: 100%;
+height: 4px;
+border-radius: 2px;
+background-color: var(--pressed-state);
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
 
 .ul-address{
     display: flex;
@@ -125,6 +135,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-decoration: none;
 padding: 24px 0;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ul-address a:hover, .ul-address a:focus{
