@@ -556,8 +556,6 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 	max-width: 100%;
 }
 .overlay {
-    background-color: var(--web-color);
-    color: var(--cloud-color);
     position: absolute;
   top: 0;
   left: 0;
@@ -568,20 +566,19 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 .app-line a:hover .overlay{
     transform: translateY(0%);
-  
 }
 .imagine-block{
     position: relative;
     overflow: hidden;
 }
 .overlay-text{
-    font-size: 16px;
-    line-height: 24px;
+background-color: var(--web-color);
+color: var(--cloud-color);
+font-size: 16px;
+line-height: 24px;
 letter-spacing: 0.32px;
 font-family: sans-serif;
 padding: 40px 32px 164px 32px;
-position: absolute;
-top: 0;
 }
 
 /*MODAL STYLES*/
