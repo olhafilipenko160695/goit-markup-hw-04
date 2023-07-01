@@ -567,7 +567,7 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
   transition: transform 250ms ease-in-out;
 }
 .app-line a:hover .overlay{
-    transform: translateY(0);
+    transform: translateY(0%);
   
 }
 .imagine-block{
@@ -580,6 +580,8 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 letter-spacing: 0.32px;
 font-family: sans-serif;
 padding: 40px 32px 164px 32px;
+position: absolute;
+top: 0;
 }
 
 /*MODAL STYLES*/
